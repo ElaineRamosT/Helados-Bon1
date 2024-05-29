@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hed{
+    background-image: url(ha.png);
+    height: 60px;
+    width: 1303px;
+}
+#lo{
+    padding-left: 90px;
+    width: 130px;
+  
+}
+#h{
+    padding-left: 30px;
+}
+ /*Menu horizontal*/
+
+ #munu{
+    max-width: 1303px;
+    min-height: 50px;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#feffe8+0,d6dbbf+100;Wax+3D+%231 */
+background: linear-gradient(to bottom,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+;
+    
+}
+
+#munu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+#munu a{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#munu a:hover{
+    background: rgb(223, 127, 127);
+}
+#munu ul ul{
+    display: none;
+    position: absolute;
+}
+
+
+  /*Menu horizontal*/
+
+
+/*Slider*/
+.Slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.Slider ul{
+    display: flex;
+    animation: cambio 30s infinite;
+    width: 400%;
+}
+.Slider li{
+    width: 100%;
+    list-style: none;
+}
+.Slider img{
+    width: 1303px;
+    height: 600px;
+}
+
+  /*Slider*/
+
+  nav{
+    background: rgb(158, 28, 28);
+  }
+  nav h1{
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
+    padding-left: 100px;
+    }
+  
+  nav img{
+    padding-left: 900px;
+    width: 300px;
+  }
+  .content{
+    margin: 20px 20px 20px 70px;
+  }
+ 
+  #o{
+    width: 1303px;
+  }
+   #na{
+    width: 1303px;
+    height: 1000px;
+   } 
+   #m{
+    width: 1303px;
+   }
+
+   footer{
+    background: black;
+    height: 500px;
+
+   }
+   #hh{
+    color: white;
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 26px;
+
+   }
+   footer img{
+    padding-top: 20px;
+    padding-left: 50px;
+   }
+
+   #fot{
+    padding-left: 500px;
+    padding-top: 70px;
+   }
+   #naa{
+    padding-left: 700px;
+   }
+  @keyframes cambio{
+    0%{margin-left: 0%;}
+    5%{margin-left: 0%;}
+
+    10%{margin-left: -100%;}
+    25%{margin-left: -100%;}
+
+    30%{margin-left: -200%;}
+    45%{margin-left: -200%;}
+
+    50%{margin-left: -300%;}
+    65%{margin-left: -300%;}
+    
+    70%{margin-left: -400%;}
+    85%{margin-left: -400%;}
+
+    90%{margin-left: -500%;}
+    100%{margin-left: -500%;}
+
+
+    
+
+    
+}
+
+
